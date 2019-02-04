@@ -7,4 +7,5 @@ target 'DOER' do
 
   # Pods for DOER
 pod 'RealmSwift'
+pod 'SwipeCellKit'
 end
