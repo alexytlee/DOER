@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EFBC8E476399530FB2D425A /* Pods_DOER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78AB06C4CD8DA00303A92FA1 /* Pods_DOER.framework */; };
+		4311943D22094F9B0037375C /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4311943C22094F9B0037375C /* SwipeTableViewController.swift */; };
 		4317C7B122076F9500DD287A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4317C7B022076F9500DD287A /* AppDelegate.swift */; };
 		4317C7B322076F9500DD287A /* DoerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4317C7B222076F9500DD287A /* DoerListViewController.swift */; };
 		4317C7B622076F9500DD287A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4317C7B422076F9500DD287A /* Main.storyboard */; };
@@ -16,10 +16,12 @@
 		4317C7ED2207DE3B00DD287A /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4317C7EC2207DE3B00DD287A /* CategoryViewController.swift */; };
 		4317C7F12207FF5800DD287A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4317C7F02207FF5800DD287A /* Item.swift */; };
 		4317C7F32207FF6000DD287A /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4317C7F22207FF6000DD287A /* Category.swift */; };
+		A9B4C41DB9CF025BFF599F80 /* Pods_DOER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FD954337D54F3506E7AC35 /* Pods_DOER.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		40447FD943E052F7D2543BB7 /* Pods-DOER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DOER.release.xcconfig"; path = "Pods/Target Support Files/Pods-DOER/Pods-DOER.release.xcconfig"; sourceTree = "<group>"; };
+		1305A021AABBC58F66986C11 /* Pods-DOER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DOER.release.xcconfig"; path = "Pods/Target Support Files/Pods-DOER/Pods-DOER.release.xcconfig"; sourceTree = "<group>"; };
+		4311943C22094F9B0037375C /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
 		4317C7AD22076F9500DD287A /* DOER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DOER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4317C7B022076F9500DD287A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4317C7B222076F9500DD287A /* DoerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoerListViewController.swift; sourceTree = "<group>"; };
@@ -30,8 +32,8 @@
 		4317C7EC2207DE3B00DD287A /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		4317C7F02207FF5800DD287A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		4317C7F22207FF6000DD287A /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
-		78AB06C4CD8DA00303A92FA1 /* Pods_DOER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DOER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC0E5B135922F207C4F413BF /* Pods-DOER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DOER.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DOER/Pods-DOER.debug.xcconfig"; sourceTree = "<group>"; };
+		70BABF58D6A27E7E1B5B16C7 /* Pods-DOER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DOER.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DOER/Pods-DOER.debug.xcconfig"; sourceTree = "<group>"; };
+		A0FD954337D54F3506E7AC35 /* Pods_DOER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DOER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,20 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EFBC8E476399530FB2D425A /* Pods_DOER.framework in Frameworks */,
+				A9B4C41DB9CF025BFF599F80 /* Pods_DOER.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30DD250A47C272A05C2F3D12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0FD954337D54F3506E7AC35 /* Pods_DOER.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4317C7A422076F9500DD287A = {
 			isa = PBXGroup;
 			children = (
 				4317C7AF22076F9500DD287A /* DOER */,
 				4317C7AE22076F9500DD287A /* Products */,
-				86F05C1F1F98792B0150BCA1 /* Pods */,
-				582DEC96A9C8CB28A8E8ECFD /* Frameworks */,
+				723613D0DCA3C3C3EB9E9C17 /* Pods */,
+				30DD250A47C272A05C2F3D12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +101,7 @@
 			children = (
 				4317C7EC2207DE3B00DD287A /* CategoryViewController.swift */,
 				4317C7B222076F9500DD287A /* DoerListViewController.swift */,
+				4311943C22094F9B0037375C /* SwipeTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -112,19 +123,11 @@
 			path = "Supporting FIles";
 			sourceTree = "<group>";
 		};
-		582DEC96A9C8CB28A8E8ECFD /* Frameworks */ = {
+		723613D0DCA3C3C3EB9E9C17 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				78AB06C4CD8DA00303A92FA1 /* Pods_DOER.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		86F05C1F1F98792B0150BCA1 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CC0E5B135922F207C4F413BF /* Pods-DOER.debug.xcconfig */,
-				40447FD943E052F7D2543BB7 /* Pods-DOER.release.xcconfig */,
+				70BABF58D6A27E7E1B5B16C7 /* Pods-DOER.debug.xcconfig */,
+				1305A021AABBC58F66986C11 /* Pods-DOER.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -136,11 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4317C7BF22076F9800DD287A /* Build configuration list for PBXNativeTarget "DOER" */;
 			buildPhases = (
-				B89DC458AFC22F10CBB7CC25 /* [CP] Check Pods Manifest.lock */,
+				0444372C35D3153A6BA6103E /* [CP] Check Pods Manifest.lock */,
 				4317C7A922076F9500DD287A /* Sources */,
 				4317C7AA22076F9500DD287A /* Frameworks */,
 				4317C7AB22076F9500DD287A /* Resources */,
-				27F2A59E99B909DB2DAA2394 /* [CP] Embed Pods Frameworks */,
+				AC9379309BD49292FCB6A290 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -198,33 +201,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		27F2A59E99B909DB2DAA2394 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-DOER/Pods-DOER-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DOER/Pods-DOER-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B89DC458AFC22F10CBB7CC25 /* [CP] Check Pods Manifest.lock */ = {
+		0444372C35D3153A6BA6103E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -246,6 +223,34 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		AC9379309BD49292FCB6A290 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DOER/Pods-DOER-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DOER/Pods-DOER-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,6 +263,7 @@
 				4317C7B322076F9500DD287A /* DoerListViewController.swift in Sources */,
 				4317C7B122076F9500DD287A /* AppDelegate.swift in Sources */,
 				4317C7F32207FF6000DD287A /* Category.swift in Sources */,
+				4311943D22094F9B0037375C /* SwipeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,7 +407,7 @@
 		};
 		4317C7C022076F9800DD287A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC0E5B135922F207C4F413BF /* Pods-DOER.debug.xcconfig */;
+			baseConfigurationReference = 70BABF58D6A27E7E1B5B16C7 /* Pods-DOER.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -420,7 +426,7 @@
 		};
 		4317C7C122076F9800DD287A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40447FD943E052F7D2543BB7 /* Pods-DOER.release.xcconfig */;
+			baseConfigurationReference = 1305A021AABBC58F66986C11 /* Pods-DOER.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
